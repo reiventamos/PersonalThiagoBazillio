@@ -12,7 +12,7 @@
 }
 
 .scroll::-webkit-scrollbar-thumb {
-  background-color: #00f7ff;
+  background-color: #ff0000;
   border-radius: 6px;
 }
 
@@ -212,7 +212,7 @@ section.module.parallax-2:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0.1%, rgba(223, 14, 14, 0) 40%, rgba(0, 0, 0, 0.4235294118) 100%);
 }
 
 section.module.parallax-3:after {
