@@ -357,6 +357,7 @@ a:link {
 }
 
 .conteudo1 {
+  background-image: url(/img/homem2.jpg);
   background-size: cover;
   justify-content: center;
   text-align: center;
@@ -376,6 +377,7 @@ a:link {
   border-radius: 110px;
 }
 .conteudo1 .imagens .textcard1 {
+  background-image: url(/img/homem2.jpg);
   display: inline-block;
   text-align: center;
   vertical-align: top;
