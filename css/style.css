@@ -343,6 +343,7 @@ a:link {
 
 /*FINAL do botão*/
 .conteudo {
+  background-image: url(/img/homem2.jpg);
   background-size: cover;
   justify-content: center;
   text-align: center;
