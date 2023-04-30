@@ -22,7 +22,7 @@ body{
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-color: #000000;
+  background-image: url(/img/b4.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -313,24 +313,15 @@ p{
 }
 }
 
-section.module.parallax-3{  background-color: #fff;
+section.module.parallax-3{  background-image: url(/img/b4.jpg);
 
-text-align: center;
-h1 {
-  color: #00f7ff;
-  font-size: 45px;
-  font-weight: 400;
+  background-size: cover;
+  justify-content: center;
   text-align: center;
-  z-index: 50;
+  color: #000;
 
-}
-h4 {
-  color: #000000;
-  font-size: 20px;
-  font-weight: 900;
-}
-p{ color: #000000;}
-h5{color: #ffffff;}
+  h1{color: #ff0000;}
+  h2{color: #00ff00;}
 
 }
 
@@ -340,13 +331,17 @@ h5{color: #ffffff;}
 }
 
 
+
+
+/*botao*/
+
+
 .botao {
   max-width: auto;
   margin: 10vh auto;
   text-align: center;
   background-color: rgba(26, 26, 26, 0);
   border-radius: 9px;
-  /*botão*/
 }
 .botao .btn {
   border-radius: 10px;
@@ -377,6 +372,10 @@ a:link{
   text-decoration: none;
   color: #000000;
 }
+  /*FINAL do botão*/
+
+
+
 
 .conteudo{
 
@@ -388,7 +387,6 @@ a:link{
   h1{color: #ff0000;}
   h2{color: #00ff00;}
 }
-
 .conteudo1{
 
   background-size: cover;

@@ -23,7 +23,7 @@ body {
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-color: #000000;
+  background-image: url(/img/b4.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -283,39 +283,30 @@ section.module.parallax-2 .textcard1 {
 }
 
 section.module.parallax-3 {
-  background-color: #fff;
+  background-image: url(/img/b4.jpg);
+  background-size: cover;
+  justify-content: center;
   text-align: center;
+  color: #000;
 }
 section.module.parallax-3 h1 {
-  color: #00f7ff;
-  font-size: 45px;
-  font-weight: 400;
-  text-align: center;
-  z-index: 50;
+  color: #ff0000;
 }
-section.module.parallax-3 h4 {
-  color: #000000;
-  font-size: 20px;
-  font-weight: 900;
-}
-section.module.parallax-3 p {
-  color: #000000;
-}
-section.module.parallax-3 h5 {
-  color: #ffffff;
+section.module.parallax-3 h2 {
+  color: #00ff00;
 }
 
 .text-1 {
   visibility: hidden;
 }
 
+/*botao*/
 .botao {
   max-width: auto;
   margin: 10vh auto;
   text-align: center;
   background-color: rgba(26, 26, 26, 0);
   border-radius: 9px;
-  /*botão*/
 }
 
 .botao .btn {
@@ -350,6 +341,7 @@ a:link {
   color: #000000;
 }
 
+/*FINAL do botão*/
 .conteudo {
   background-size: cover;
   justify-content: center;
