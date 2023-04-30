@@ -23,7 +23,7 @@ body {
   right: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background-image: url(/img/b4.jpg);
+  background-color: #000;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -246,7 +246,7 @@ section.module.parallax-1 h4 {
 }
 
 section.module.parallax-2 {
-  background-image: url(/img/b4.jpg);
+  background-color: #000;
   text-align: center;
 }
 section.module.parallax-2 h1 {
@@ -312,7 +312,7 @@ section.module.parallax-3 h2 {
 .botao .btn {
   border-radius: 10px;
   padding: 20px 15px;
-  background-color: #ff0000;
+  background-color: #f3f0f0;
   text-decoration: none;
   font-size: 13px;
   transition: all 0.6s;
